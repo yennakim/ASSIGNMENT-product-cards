@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Product Cards</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,89 +13,124 @@
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col">
-        <div class="card h-100">
-          <div class="card-header">
-            <header><h2>Fancy Feast Dry Cat Food</h2></header>
-          </div>
-          <img
-            src="https://m.media-amazon.com/images/I/71Y7DRfwKJL._AC_SL1500_.jpg"
-            class="card-img-top"
-            alt="Dry cat food"
-          />
-          <div class="card-body">
-            <p class="card-text">
-              <h3>Savory Chicken and Turkey</h3>
-              Premium card food that your cat will love. Filled with savory
-              chicken and turkey.
-            </p>
-            <p>Available</p>
-          </div>
-
-          <div><section><header>Specifications</header>
-            <ul>
-              <li>Size: 6 x 6 x 8</li>
-              <li>Weight: 7lbs</li>
-            </ul>
-            <div class="card-footer">
-                <p>Specifications valid until 5/1/2023</p>              
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 card1">
+            <div class="card-header">
+              <h2>Fancy Feast Dry Cat Food</h2>
             </div>
-            <section><header>Pricing</header>
-              <ol>
-                <li>$11.00</li>
-                <li>$25.00</li>
-                <li>$38.00</li>
-              </ol>
-              </section>
-          </div>
-        </div>
-      </div>
+            <img
+              src="https://m.media-amazon.com/images/I/71Y7DRfwKJL._AC_SL1500_.jpg"
+              class="card-img-top"
+              alt="Dry cat food"
+            />
+            <div class="card-body">
+              <h3>Savory Chicken and Turkey</h3>
+              <p class="card-text">
+                Premium dry food that your cat will love. Filled with savory
+                chicken and turkey.
+              </p>
+              <p>Available</p>
+            </div>
 
-      <div class="col">
-        <div class="card h-100">
-          <img
-            src="https://m.media-amazon.com/images/I/71Y7DRfwKJL._AC_SL1500_.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a short card.</p>
+            <div>
+              <section>
+                <header>Specifications</header>
+                <ul>
+                  <li>Size: 6 x 6 x 8</li>
+                  <li>Weight: 7lbs</li>
+                </ul>
+                <div class="card-footer">
+                  <p>Specifications valid until 5/1/2023</p>
+                </div>
+              </section>
+              <section>
+                <header>Pricing</header>
+                <ol>
+                  <li>$11.00</li>
+                  <li>$25.00</li>
+                  <li>$38.00</li>
+                </ol>
+              </section>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content.
-            </p>
+
+        <div class="col">
+          <div class="card card2">
+            <div class="card-header">
+              <header><h2>Fancy Feast Wet Cat Food</h2></header>
+            </div>
+            <img
+              src="https://m.media-amazon.com/images/I/81kBhvIa+cL._AC_SL1500_.jpg"
+              class="card-img-top"
+              alt="Wet cat food"
+            />
+            <div class="card-body">
+              <h3>Poultry and Seafood</h3>
+              <p class="card-text">
+                With a variety of flavors for your cat to not get tired of the
+                same food. This collection of chicken and saefood includes
+                options such as chicken,seafood, and tuna. Comes in a pack of 24
+                individual cans of pure creamy goodness.
+              </p>
+              <p>Available</p>
+              <div>
+                <section>
+                  <header>Specifications</header>
+                  <ul>
+                    <li>Size: 5 x 7 x 6</li>
+                    <li>Weight: 4.50 lbs</li>
+                  </ul>
+                  <div class="card-footer">
+                    <p>Specifications valid until 5/1/2023</p>
+                  </div>
+                </section>
+                <section>
+                  <header>Pricing</header>
+                  <ol>
+                    <li>$25.00</li>
+                    <li>$45.00</li>
+                    <li>$60.00</li>
+                  </ol>
+                </section>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </p>
+        <div class="col">
+          <div class="card">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col">
-        <div class="card h-100">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a short card.</p>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="..." class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a short card.</p>
+            </div>
           </div>
         </div>
       </div>
